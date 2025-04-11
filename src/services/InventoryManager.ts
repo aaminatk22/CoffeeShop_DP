@@ -25,4 +25,8 @@ export class InventoryManager {
         }
         return false;
     }
+
+    public checkStock(name: string): number {
+        return this.ingredients.get(name) || 0;
+    }
 }

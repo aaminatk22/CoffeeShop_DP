@@ -23,6 +23,9 @@ var InventoryManager = /** @class */ (function () {
         }
         return false;
     };
+    InventoryManager.prototype.checkStock = function (name) {
+        return this.ingredients.get(name) || 0;
+    };
     return InventoryManager;
 }());
 exports.InventoryManager = InventoryManager;
