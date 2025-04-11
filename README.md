@@ -19,6 +19,7 @@ A TypeScript implementation of a coffee ordering system using design patterns an
 
 - **Data Persistence**
   - Order history saved in IndexedDB
+  
 
 ## 🎨 Design Patterns Used
 
