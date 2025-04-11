@@ -77,3 +77,20 @@ npx ts-node src/demo/MainMenu.ts
 - CoffeeFactory: Creates coffee instances
 - InventoryManager: Manages stock (Singleton)
 - CoffeeDB: Handles database operations
+
+## Demo
+**Running program**
+
+![alt text](image.png)
+
+**Order coffee**
+
+![alt text](image-1.png)
+
+**View order history**
+
+![alt text](image-2.png)
+
+**Check Inventory**
+
+![alt text](image-3.png)
